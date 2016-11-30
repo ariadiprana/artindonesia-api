@@ -6,7 +6,7 @@ This repo is used to support the backend side of Art Indonesia Project.<br>
 Art Indonesia Project is a website to help local sculptors displaying their products for potential customers.
 
 
-In this repo I use <b>node.js</b>
+Development Tool :  <b>node.js</b>
 
 ## Team Member
 
@@ -28,6 +28,9 @@ npm run dev
 ```
 
 ## Deployment
+Set up process.ENV <br>
+- PORT : 3000
+- NODE_ENV : production
 
 ### Infrastructure
 
@@ -36,7 +39,6 @@ npm run dev
 ### Server
 
 (Will use PM2)
-
 
 --------------------------------------------------------------------------------
 
