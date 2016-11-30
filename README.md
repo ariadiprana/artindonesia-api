@@ -29,9 +29,9 @@ npm run dev
 
 ## Deployment
 Set up process.ENV <br>
-- PORT : 3000
-- NODE_ENV : production
-
+- PORT : [port]
+- NODE_ENV : ['production' || 'development' || 'testing']
+- JWT : ['secret-key']
 ### Infrastructure
 
 (Will use AWS)
