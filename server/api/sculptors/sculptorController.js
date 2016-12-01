@@ -48,7 +48,6 @@ exports.put = function(req, res, next) {
 
 exports.post = function(req, res, next) {
   var newsculptor = req.body;
-  newsculptor.author = req.user._id;
   Sculptor.create(newsculptor)
     .then(function(sculptor) {
       res.json(sculptor);
